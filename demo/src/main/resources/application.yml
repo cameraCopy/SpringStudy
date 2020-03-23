@@ -1,0 +1,13 @@
+server:
+    #配置启动的接口
+    port: 8001
+    servlet:
+        #工程路径前缀
+        context-path:
+spring:
+    #profiles:
+        #启动环境
+        #active: "@profileActive@"
+    #应用名称
+    application:
+        name: demo
