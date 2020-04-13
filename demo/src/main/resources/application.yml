@@ -1,13 +1,14 @@
 server:
-    #ÅäÖÃÆô¶¯µÄ½Ó¿Ú
-    port: 8001
+    port: 8102
+    tomcat:
+        uri-encoding: utf-8
     servlet:
-        #¹¤³ÌÂ·¾¶Ç°×º
-        context-path:
+        session:
+            timeout: 30m
+#æ•°æ®åº“ç›¸å…³é…ç½®
 spring:
-    #profiles:
-        #Æô¶¯»·¾³
-        #active: "@profileActive@"
-    #Ó¦ÓÃÃû³Æ
-    application:
-        name: demo
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/drive
+        username: root
+        password: 123456
