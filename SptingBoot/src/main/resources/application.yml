@@ -1,0 +1,16 @@
+server:
+  #配置启动的接口
+  port: 8080
+spring:
+  #启动环境
+  profiles:
+    active: dev
+  #应用名称
+  application:
+    name: zzsim-core-gateway
+
+mrbird:
+  blog:
+    name: mrbird's blog
+    title: Spring Boot
+    wholeTitle: ${mrbird.blog.name}--${mrbird.blog.t itle}

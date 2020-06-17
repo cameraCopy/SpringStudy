@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    #数据库url
+    url: jdbc:mysql://47.107.134.254:3306/stop?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false&&allowMultiQueries=true&serverTimezone=GMT%2B8
+    #数据库用户名
+    username: root
+    #数据库密码
+    password: promisE@123
