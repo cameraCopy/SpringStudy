@@ -6,6 +6,7 @@
 
     <groupId>com.camera.spring.boot</groupId>
     <artifactId>SpringStudy</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -18,6 +19,7 @@
 
     <modules>
         <module>SpringSecurity</module>
+        <module>Utils</module>
     </modules>
 
     <properties>
