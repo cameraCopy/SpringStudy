@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 /*@EnableConfigurationProperties：使使用 @ConfigurationProperties 注解的类生效。
 如果一个配置类只配置@ConfigurationProperties注解，而没有使用@Component，那么在IOC容器中是获取不到properties 配置文件转化的bean。*/
 //@EnableConfigurationProperties({ConfigBean.class})
-@MapperScan("com.baomidou.mybatisplus.samples.quickstart.mapper")
+//@MapperScan("com.baomidou.mybatisplus.samples.quickstart.mapper")
 public class BootApplication {
 
     public static void main(String[] args) {

@@ -7,7 +7,7 @@ spring:
     active: dev
   #Ó¦ÓÃÃû³Æ
   application:
-    name: zzsim-core-gateway
+    name: boot
 
 mrbird:
   blog:
