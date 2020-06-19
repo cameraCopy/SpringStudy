@@ -1,11 +1,11 @@
 server:
-  #ÅäÖÃÆô¶¯µÄ½Ó¿Ú
+  #é…ç½®å¯åŠ¨çš„æ¥å£
   port: 8080
 spring:
-  #Æô¶¯»·¾³
+  #å¯åŠ¨ç¯å¢ƒ
   profiles:
     active: dev
-  #Ó¦ÓÃÃû³Æ
+  #åº”ç”¨åç§°
   application:
     name: boot
 

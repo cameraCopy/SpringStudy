@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    #Êı¾İ¿âurl
+    #æ•°æ®åº“url
     url: jdbc:mysql://47.107.134.254:3306/stop?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false&&allowMultiQueries=true&serverTimezone=GMT%2B8
-    #Êı¾İ¿âÓÃ»§Ãû
+    #æ•°æ®åº“ç”¨æˆ·å
     username: root
-    #Êı¾İ¿âÃÜÂë
+    #æ•°æ®åº“å¯†ç 
     password: promisE@123
